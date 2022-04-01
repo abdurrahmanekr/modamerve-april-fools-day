@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "No content Modanisa",
+  "description": "1 Nisanda Modanisaya girdiğinizde Sefa Merve'ye yönlendiren eklendi",
+  "version": "1.0",
+  "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://modanisa.com/*",
+      "https://*.modanisa.com/*"
+    ],
+    "js": ["content.js"]
+  }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
